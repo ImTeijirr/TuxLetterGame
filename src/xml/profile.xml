@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+    Document   : save_example.xml.xml
+    Created on : August 31, 2014, 3:31 PM
+    Author     : sarrazij / Céline Fouard
+    Description:
+        Purpose of the document follows.
+--><profile xmlns="http://myGame/profile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myGame/profile save_schema.xsd">
+             
+    <name>Alban</name>
+    <avatar>image/tux.jpg</avatar>
+    <birthday>2006-05-08</birthday> 
+    <games>
+        <game date="2013-12-10"><word level="1">cle</word><time>10</time></game>   
+        <game date="2013-12-11" found="75%"><word level="2">indice</word><time>15</time></game> 
+	<game date="2019-11-29" found="0%"><word level="2">indice</word><time>3</time></game>
+	<game date="2019-11-29" found="0%"><word level="2">indice</word><time>4</time></game>
+	<game date="2019-11-29" found="0%"><word level="2">Voiture</word><time>1</time></game>
+	<game date="2019-11-29" found="0%"><word level="2">Voiture</word><time>1</time></game>
+	<game date="2019-11-29" found="0%"><word level="2">Voiture</word><time>0</time></game>
+	<game date="2019-11-29" found="0%"><word level="2">indice</word><time>1</time></game>
+	<game date="2019-11-29" found="0%"><word level="2">indice</word><time>1</time></game>
+	<game date="2019-11-29" found="0%"><word level="2">Voiture</word><time>3</time></game>
+</games>
+</profile>

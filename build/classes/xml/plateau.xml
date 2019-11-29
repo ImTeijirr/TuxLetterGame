@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plateau xmlns="http://www.theplateau.fr"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.theplateau.fr plateauSchema.xsd">
+    <dimensions>
+        <height>100</height>
+        <width>40</width>
+        <depth>50</depth>
+    </dimensions>
+    <mapping>
+        <textureBottom>textures/floor/grass2.png</textureBottom>
+        <textureEast>textures/skybox/interstellar/east.png</textureEast>
+        <textureWest>textures/skyblox/interstellar/west.png</textureWest>
+        <textureNorth>textures/skyblox/interstellar/north.png</textureNorth>
+    </mapping>
+    <pion>http://www.monpion.fr</pion>
+</plateau>

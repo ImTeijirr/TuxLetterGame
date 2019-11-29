@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dico xmlns="http://www.thedico.fr"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.thedico.fr dicoSchema.xsd">
+    <mot>
+        <valeur>Salut</valeur> 
+        <difficulte>1</difficulte>
+    </mot>
+        <mot>
+        <valeur>cle</valeur> 
+        <difficulte>1</difficulte>
+    </mot>
+    <mot>
+        <valeur>Yo</valeur> 
+        <difficulte>1</difficulte>
+    </mot>
+    <mot>
+        <valeur>Coucou</valeur> 
+        <difficulte>1</difficulte>
+    </mot>
+    <mot>
+        <valeur>Voiture</valeur> 
+        <difficulte>2</difficulte>
+    </mot>
+    <mot>
+        <valeur>indice</valeur> 
+        <difficulte>2</difficulte>
+    </mot>
+    <mot>
+        <valeur>Covoiturage</valeur> 
+        <difficulte>3</difficulte>
+    </mot>
+    <mot>
+        <valeur>Theiere</valeur> 
+        <difficulte>4</difficulte>
+    </mot>
+    <mot>
+        <valeur>Rhapsodie</valeur> 
+        <difficulte>5</difficulte>
+    </mot>
+</dico>

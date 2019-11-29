@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.thedico.fr"
+           xmlns="http://www.thedico.fr"
+           elementFormDefault="qualified">
+
+    <xs:element name="dico" type="Dico"/>
+    <xs:complexType name="Dico">
+        <xs:sequence>
+            <xs:element name="mot" type="Mot" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Mot">
+        <xs:sequence>
+            <xs:element name="valeur" type="Valeur"/>
+            <xs:element name="difficulte" type="Difficulte"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="Valeur">
+        <xs:restriction base="xs:string">  
+            <xs:pattern value="\w\w\w*"/>
+        </xs:restriction>
+    </xs:simpleType>
+        <xs:simpleType name="Difficulte">
+        <xs:restriction base="xs:int">  
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="5"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
